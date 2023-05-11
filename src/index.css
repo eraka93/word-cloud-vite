@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: white;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 2rem;
+  min-height: 90vh;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  color: #242424;
+}
+
+.footer a:hover {
+  color: #535bf2;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.selected {
+  text-decoration-line: underline;
+}
+
+.content {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.topics {
+  flex: 70;
+  border-right: 2px solid #eaeaea;
+  padding: 1rem
+}
+
+.topic:hover {
+  cursor: pointer;
+}
+
+.details {
+  flex: 30;
+  padding: 0 2rem;
+}
+
+.details div {
+  font-size: 1.2rem;
+  margin: 0
+}
+
+.detailsText {
+  padding-bottom: 1rem;
+}
+
+
+.tag {
+  background-color: green;
+}
+
+.wordCloud:only-child:hover {
+  cursor: pointer;
+}
