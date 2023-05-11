@@ -39,6 +39,6 @@ The second option is implemented using the `react-d3-cloud` library. The Word-cl
 
 The page is divided into two columns, with topics listed on the left-hand side and information about each topic displayed on the right-hand side after it is clicked.
 
-All topics are retrieved from the `topics.json` file located in the `public` folder.
+All topics are retrieved from the `topics.json` file located in the `src` folder.
 Topics listed with `ListTopic` component from `components/ListTopics.js`
 Infomation of topic displayed with `Details` component from `components/Details.js`
